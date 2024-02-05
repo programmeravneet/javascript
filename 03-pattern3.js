@@ -4,7 +4,7 @@ for (row = 1; row <= 5; row++) {
 
 
     // stars
-    for (st = 1; st<=nst; st++) {
+    for (st = 1; st<=nst-1; st++) {
         process.stdout.write("* ")
     }
 
