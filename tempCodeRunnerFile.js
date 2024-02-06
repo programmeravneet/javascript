@@ -1,2 +1,1 @@
-nsp=1
-        nst=5
+Math.floor(n/2+1)
