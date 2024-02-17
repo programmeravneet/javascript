@@ -24,4 +24,7 @@
 // bcoz code run from left to right iske liye ple space pehle print karana hoga
 
 // new line
-
+function abcd(a){
+a()
+}
+abcd(function(){console.log("Main to agaya");})
