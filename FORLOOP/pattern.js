@@ -24,7 +24,27 @@
 // bcoz code run from left to right iske liye ple space pehle print karana hoga
 
 // new line
-function abcd(a){
-a()
+// let obj={
+//     name:"avneet",
+//     age:24,
+//     city:"delhi"
+// }
+
+// for(var key in obj){
+//     console.log(key,obj[key]);
+// }
+
+let obj = {
+    name: "salman",
+    toString(){
+    return "tu to gya"
+    },
+    valueOf(){
+        return 77
+    }
+
 }
-abcd(function(){console.log("Main to agaya");})
+console.log(obj.toString());
+console.log(obj.valueOf());
+console.log(obj.name);
+
