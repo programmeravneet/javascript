@@ -71,3 +71,20 @@ x()
 let y = x()
 console.log(y);
 
+ 
+
+function abhay(lop){
+console.log('hui');
+return lop
+}
+console.log(abhay(98))
+
+
+
+var a=20;
+function foo(){
+    console.log(a);
+    a = 10
+}
+foo()
+console.log(a);
