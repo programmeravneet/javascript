@@ -57,9 +57,9 @@ console.log("hey");
 console.log("hello");
 console.log("Bello");
 fn();
+console.log("puneet");
 rv =fn();
 console.log(rv);
-console.log("puneet");
 console.log("sumit");
 fn()
 rv2 = fn()
@@ -77,7 +77,9 @@ function abhay(lop){
 console.log('hui');
 return lop
 }
-console.log(abhay(98))
+rv1 = abhay
+rv1(90)
+
 
 
 
@@ -88,3 +90,17 @@ function foo(){
 }
 foo()
 console.log(a);
+
+
+
+function add(aba,daba){
+ return aba + daba
+}
+let result = add(10,20)
+console.log(result);
+
+let adbc =(u)=>{
+return "avneetsssss",u
+}
+let yyy = adbc(90)
+console.log(yyy)
